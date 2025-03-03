@@ -7,7 +7,7 @@ import torchvision.transforms as transforms
 import matplotlib.pyplot as plt
 import numpy as np
 
-def get_cifar10_dataloaders(batch_size=256, num_workers=4, data_root='./data'):
+def get_cifar10_dataloaders(batch_size=128, num_workers=4, data_root='./data'):
     """
     Create data loaders for CIFAR-10 dataset.
     
